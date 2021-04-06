@@ -1,0 +1,190 @@
+body {
+  background-color: #a3a3a3;
+  background-image: url("../static/images/pattern.png");
+  background-size: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+  
+.bookcover {
+  background-color: #b4d1da;
+  border-radius: 9px;
+  border: 1px solid #738186; 
+  width: 960px;
+  height: 660px;
+  margin: 100px auto;
+  position: relative;
+}
+  
+.bookdot {
+  border-radius: 9px;
+  border: 2px dashed #ffffff;
+  padding: 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+  
+.page {
+  background-color: #eeeeee;
+  border-radius: 9px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  padding: 15px;
+}
+
+/* 프로필 컨테이너 */
+.column1 {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.row1 {
+  display: flex;
+  flex: 1;
+}
+
+/* 투데이, 토탈 */
+.item1 {
+  font-family: 'NeoDunggeunmo';
+  flex: 1;
+  text-align: center;
+  margin-top: 6px;
+}
+
+/* 프로필 */
+.item2 {
+  flex: 18;
+  background-color: #ffffff;
+  border: 1px solid #b1b1b1;
+  border-radius: 9px;
+}
+
+.today-color {
+  color: #ff0000;
+}
+
+.profile-image {
+  margin-top: 8px;
+  padding: 15px;
+}
+
+.profile-comment {
+  font-family: 'KyoboHand';
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.profile-name {
+  font-family: 'NeoDunggeunmo';
+}
+
+/* 파도타기 드롭다운 */
+.profile-dropdown {
+  flex: 0;
+  border: 1px solid #c9d4da;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 35px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 4.5px solid transparent;
+  border-right: 4.5px solid transparent;
+  border-top: 5px solid #8a8a8a;
+}
+
+.dropdown-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.profile-dropdown:hover > .dropdown-content {
+  display: block;
+}
+
+.dropdown-content > a {
+  display: block;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+  background-color: #f1f1f1;
+}
+
+/* 정보 */
+.item3 {
+  flex: 1;
+}
+
+.item4 {
+  font-size: 12px;
+  flex: 1;
+  margin-top: 10px;
+  margin-left: 15px;
+  text-align: right;
+}
+
+/* 메뉴 컨테이너 */
+.column3 {
+  flex: 0.15;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+/* 메뉴 */
+.menu {
+  font-family: 'NeoDunggeunmo';
+  flex: 0.6;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.menu-button {
+  border: 1px solid #1f87a7;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #1f87a7;
+  color: #ffffff;
+  display: flex;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.menu-button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #b1b1b1;
+}

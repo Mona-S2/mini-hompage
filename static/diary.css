@@ -1,0 +1,118 @@
+/* 캘린더, 다이어리*/
+.item5 {
+    position: relative;
+}
+
+/* 캘린더 */
+.calendar-content {
+    font-family: 'NeoDunggeunmo';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 3rem;
+  
+    border: 1px solid #e7e7e7;
+  
+    display: flex;
+    align-items: center;
+}
+
+/* 캘린더 날짜 */
+.today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+}
+
+.date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+
+/* 캘린더 휴일 */
+.color-red {
+    color: red;
+}
+  
+.color-blue {
+    color: blue;
+}
+
+/* 다이어리 */
+.diary-content {
+    position: absolute;
+    top: 80px;
+    left: 17px;
+    right: 17px;
+    border: 1px solid #70707000;
+    font-family: 'NeoDunggeunmo';
+    width: 515px;
+    height: 445px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* 다이어리 내용 */
+.diary-square {
+    border: 1px solid #e7e7e7;
+}
+
+.diary-date {
+    font-family: 'NeoDunggeunmo';
+    color: #3b87ab;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.diary-text {
+    font-family: 'KyoboHand';
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+/* 비밀 일기 */
+.secret-button {
+    font-family: 'NeoDunggeunmo';
+    font-size: 14px;
+    border: 1px solid;
+    background-color: #ffffff;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    margin-top: 30px;
+    transition: all 0.5s ease-out;
+}
+
+.secret-button:hover {
+    border: 1px solid #3faf81;
+    background-color: #3faf81;
+    color: #ffffff;
+}
+
+#secret-container {
+    display: none;
+  }

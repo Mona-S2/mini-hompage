@@ -1,0 +1,101 @@
+/* 새 소식, 미니룸 컨테이너 */
+.column2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.row2 {
+  display: flex;
+  flex: 0.1;
+}
+
+/* 새 소식, 미니룸 */
+.item5 {
+  flex: 1.8;
+  background-color: #ffffff;
+  border: 1px solid #b1b1b1;
+  border-radius: 9px;
+}
+
+/* 새 소식 */
+.updated-news {
+  font-family: 'KOTRA_BOLD-Bold';
+  font-size: 15px;
+  color: #41839c;
+  border-bottom: 1px solid #b1b1b1;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 3px;
+}
+
+/* 카테고리 태그 */
+.photo-tag {
+  font-family: 'Noto Sans KR', sans-serif;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #f15f5f;
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.board-tag {
+  font-family: 'Noto Sans KR', sans-serif;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #617dc1;
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+/* 태그 옆 간략한 내용 */
+.text {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+}
+
+/* 카테고리 */
+.category {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  border-bottom: 1px dashed #b1b1b1;
+}
+
+.count {
+  font-family: 'NeoDunggeunmo';
+  font-size: 14px;
+  color: #0043d3;
+}
+
+.news-content {
+  display: flex;
+  margin-right: 15px;
+}
+
+.content-board {
+  flex: 0.7;
+}
+
+.content-folder {
+  flex: 0.35;
+}
+
+/* 미니룸 */
+.miniroom {
+  font-family: 'KOTRA_BOLD-Bold';
+  font-size: 15px;
+  color: #41839c;
+  border-bottom: 1px solid #b1b1b1;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.miniroom-image {
+  margin-top: 5px;
+}

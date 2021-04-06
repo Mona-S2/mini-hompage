@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/home.css" />
+    <link rel="stylesheet" href="./static/photo.css" />
+    <link rel="stylesheet" href="./static/diary.css" />
+    <link rel="stylesheet" href="./static/guest.css" />
+    <style type="text/css"> a { text-decoration:none } </style>
+    <script src="https://kit.fontawesome.com/47e8496342.js" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+            <!-- 프로필 관련 컨테이너 -->
+            <div class="column1">
+              <div class="row1">
+                <!-- 투데이, 토탈 -->
+                <div class="item1">TODAY <span class="today-color">486</span> | TOTAL 1004</div>
+              </div>
+                <!-- 프로필 -->
+                <div class="item2">
+                <div class="profile-image">
+                  <center><img src="./static/images/profile.jpg" width="85%" alt="profile-image"></center>
+                </div>
+                <div class="profile-comment">
+                  나,<br>
+                  차가워질 거야..<br>
+                  따뜻하게 살기에는<br>
+                  세상이 날 너무<br>
+                  만만하게 보니까.<br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <span class="profile-name">모나</span> (♀)
+                  <br>
+                    <!-- 파도타기 드롭다운 -->
+                    <div class="profile-dropdown">
+                      <div class="dropdown-button">
+                        <div class="dropdown-title">파도타기</div>
+                        <div class="triangle-down"></div>
+                      </div>  
+                      <div class="dropdown-content">
+                        <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티로 가기</a>
+                        <a href="https://www.instagram.com/coding_comu/" target="_blank">인스타그램으로 가기</a>
+                      </div>
+                    </div>
+                </div>
+              </div>  
+            </div>
+            <!-- 다이어리 컨테이너 -->
+            <div class="column2">
+              <div class="row2">
+                <!-- 정보 -->
+                <span class="item3"><strong>모나થ 추억 상ㅈr...♥ ʕ•ﻌ•ʔ ♡</strong></span>
+                <span class="item4"><strong>https://mona.cyworld.com</strong></span>
+              </div>
+                <div class="item5">
+                    <!-- 캘린더 -->
+                    <div class="calendar-content">
+                            <div class="today">04.01<br />THUR</div>
+                            <div class="date-list">
+                              <div class="date">1</div>
+                              <div class="date">2</div>
+                              <div class="date"><span class="color-blue">3</span></div>
+                              <div class="date"><span class="color-red">4</span></div>
+                              <div class="date">5</div>
+                              <div class="date">6</div>
+                              <div class="date">7</div>
+                              <div class="date">8</div>
+                              <div class="date">9</div>
+                              <div class="date"><span class="color-blue">10</span></div>
+                              <div class="date"><span class="color-red">11</span></div>
+                              <div class="date">12</div>
+                              <div class="date">13</div>
+                              <div class="date">14</div>
+                              <div class="date">15</div>
+                              <div class="date">16</div>
+                              <div class="date"><span class="color-blue">17</span></div>
+                              <div class="date"><span class="color-red">18</span></div>
+                              <div class="date">19</div>
+                              <div class="date">20</div>
+                              <div class="date">21</div>
+                              <div class="date">22</div>
+                              <div class="date">23</div>
+                              <div class="date"><span class="color-blue">24</span></div>
+                              <div class="date"><span class="color-red">25</span></div>
+                              <div class="date">26</div>
+                              <div class="date">27</div>
+                              <div class="date">28</div>
+                              <div class="date">29</div>
+                              <div class="date">30</div>
+                            </div>
+                    </div>
+                    <!-- 다이어리 -->
+                    <div class="diary-content">
+                      <div class="diary-square">
+                        <div class="diary-date">2021.04.01 목 3:25</div>
+                        <div class="diary-text">
+                        내 마음을 너무 늦게 알아버렸어.<br>
+                        진작 알면 좋았을껄.<br>
+                        너무 힘들어, 힘들어서,<br>
+                        사랑으로만은 못 버티겠어.</div>
+                      </div>
+                        <br>
+                        <br>
+                      <div class="diary-square">  
+                        <div class="diary-date">2021.03.29 월 17:46</div>
+                        <div class="diary-text">
+                        "나 좋아하지마."<br>
+                        "그게 뭔데."<br>
+                        "나 좋아하지 말라고."<br>
+                        "그거 어떻게 하는건데."</div>
+                      </div>  
+                        <br>
+                        <br>
+                      <div class="diary-square">  
+                        <div class="diary-date">2021.03.26 금 9:09</div>
+                        <div class="diary-text">
+                        자. 이제 날 사랑해봐.<br>
+                        못할거면 매정하게 버려.<br>
+                        서럽게 울어라도 보게.</div>
+                      </div>
+                        <center><button class="secret-button" onclick="getTextFile()">
+                          <i class="fas fa-lock"></i>&nbsp;모나의 비밀 일기 보기
+                        </button></center>
+                          <br>
+                          <br>
+                        <div class="diary-container" id="secret-container">
+                          <div class="diary-square">
+                          <div class="diary-date">모나의 비밀 일기</div>
+                          <div class="diary-text" id="secret-diary"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 메뉴 컨테이너 -->
+            <div class="column3">
+              <div class="menu">
+                <a href="./home.html" class="menu-button">홈</a><br>
+                <a href="./diary.html" class="menu-button">다이어리</a><br>
+                <a href="./photo.html" class="menu-button">사진첩</a><br>
+                <a href="./guest.html" class="menu-button">방명록</a><br>
+              </div>
+            </div>  
+        </div>  
+      </div>
+    </div>
+    <script>
+      function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+          processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+  
+      function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file, "UTF-8");
+  
+        reader.onload = function () {
+          document.getElementById("secret-diary").innerText = reader.result;
+          document.getElementById("secret-container").style.display = "block";
+      };
+    }
+  </script>
+  </body>
+</html>
